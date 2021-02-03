@@ -1,5 +1,5 @@
 
-#!/bin/sh
+#!/bin/bash
 
 upSeconds="$(/usr/bin/cut -d. -f1 /proc/uptime)"
 secs=$((${upSeconds}%60))
